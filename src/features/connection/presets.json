@@ -1,4 +1,48 @@
 {
+  "archway-mainnet": {
+    "chainName": "Archway Mainnet",
+    "chainId": "archway-1",
+    "rpcEndpoint": "https://archway.api.trivium.network:26657",
+    "restEndpoint": "https://archway.api.trivium.network:1317",
+    "faucetEndpoint": "",
+    "addressPrefix": "archway",
+    "microDenom": "aarch",
+    "coinDecimals": "18",
+    "gasPrice": "900000000000"
+  },
+  "archway-constantine": {
+    "chainName": "Archway Testnet - Constantine",
+    "chainId": "constantine-3",
+    "rpcEndpoint": "https://constantine.api.trivium.network:26657",
+    "restEndpoint": "https://constantine.api.trivium.network:1317",
+    "faucetEndpoint": "",
+    "addressPrefix": "archway",
+    "microDenom": "aconst",
+    "coinDecimals": "18",
+    "gasPrice": "900000000000"
+  },
+  "nois-mainnet": {
+    "chainName": "Nois Mainnet",
+    "chainId": "nois-1",
+    "rpcEndpoint": "https://nois.rpc.m.stavr.tech:443",
+    "restEndpoint": "https://nois.api.m.stavr.tech:443",
+    "faucetEndpoint": "",
+    "addressPrefix": "nois",
+    "microDenom": "unois",
+    "coinDecimals": "6",
+    "gasPrice": "0.05"
+  },
+  "archway-constantine": {
+    "chainName": "Nois Testnet - 005",
+    "chainId": "nois-testnet-005",
+    "rpcEndpoint": "https://nois-testnet-rpc.polkachu.com:443",
+    "restEndpoint": "https://nois-testnet-api.polkachu.com:443",
+    "faucetEndpoint": "",
+    "addressPrefix": "nois",
+    "microDenom": "unois",
+    "coinDecimals": "6",
+    "gasPrice": "0.05"
+  },
   "juno-mainnet": {
     "chainName": "Juno Mainnet",
     "chainId": "juno-1",
